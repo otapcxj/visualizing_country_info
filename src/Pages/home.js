@@ -61,7 +61,7 @@ const Home = () => {
 
     const handleSearch = (query) => {
         const results = countries.filter((c) =>
-            c.name.common.toLowerCase().includes(query.toLowerCase())
+            c.name.toLowerCase().includes(query.toLowerCase())
         );
         setFilteredCountries(results);
         setSelectedCountry(results[0] || null);

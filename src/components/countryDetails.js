@@ -1,6 +1,6 @@
 import Flag from './flag';
 import Borders from './borders';
-import Coordinates from './coordinates';
+import Coordinates from './coordinate';
 
 const CountryDetails = ({ country }) => {
     // if there is no country data it will display the loading text
